@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
     <!-- pybo CSS -->
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- simplemde CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='simplemde.min.css') }}" >
+
+
+
     <title>지식보드</title>
 </head>
 <body>
@@ -21,6 +27,10 @@
 <!-- Bootstrap JS -->
 <script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
 <!-- 자바스크립트 Start -->
+
+<!-- simplemde.min.js -->
+<script src="{{ url_for('static',filename='simplemde.min.js') }}"></script>
+
 {% block script %}
 {% endblock %}
 <!-- 자바스크립트 End -->
